@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.colunistas-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.colunista {
+    text-align: center;
+    max-width: 150px;
+}
+
+.colunista img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.colunista h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.colunista p {
+    font-size: 0.9em;
+    color: #555;
+}
