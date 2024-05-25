@@ -18,12 +18,22 @@ body {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.colunista img:hover {
+    transform: scale(1.1);
 }
 
 .colunista h3 {
     font-size: 1.2em;
     margin: 10px 0 5px;
     color: #000;
+}
+
+.colunista p {
+    font-size: 0.9em;
+    color: #555;
 }
 
 .colunista a {
